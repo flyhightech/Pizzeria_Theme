@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
+<?php
+get_header();
+?>
 
-<head>
-    <meta charset="utf-8">
-    <title>La Pizzeria</title>
-</head>
 
-<body>
-
-</body>
-
-</html>
+<?php
+get_footer();
+?>
