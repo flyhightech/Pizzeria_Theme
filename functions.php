@@ -13,3 +13,15 @@ function lapizzeria_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'lapizzeria_styles');
+
+//Add menu 
+
+function lapizzeria_menu() {
+    register_nav_menu(array(
+
+    ));
+
+}
+
+add_action('init', 'lapizzeria_menu');
+
