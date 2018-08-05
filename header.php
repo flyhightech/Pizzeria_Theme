@@ -32,9 +32,7 @@
                 $args = array(
                     'theme_location' => 'header-menu',
                     'container' => 'nav',
-
-
-
+                    'container_class' => 'site-nav'
                 );
             ?>
             <nav class="site-nav">
