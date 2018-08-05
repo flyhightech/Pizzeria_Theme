@@ -34,7 +34,7 @@
                     'container' => 'nav',
                     'container_class' => 'site-nav'
                 );
-            ?>
-            <nav class="site-nav">
+                wp_nav_menu($args);
+            ?>;
         </div>
     </div>
