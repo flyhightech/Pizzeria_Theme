@@ -11,7 +11,7 @@
 
 <body>
 
-    //Below is where the image is located.
+    Below is where the image is located.
 
     <header class="site-header">
 
@@ -19,15 +19,13 @@
 
             <a href="<?php echo esc_url( home_url('/') ); ?>">
 
-                <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg"     class="logoimage">
+                <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" class="logoimage">
 
             </a>
-
         </div>
-
     </header>
-    <<div class="main-menu">
-        <<div class="navigation">
+    <div class="main-menu">
+        <div class="navigation">
             <?php 
                 $args = array(
                     'theme_location' => 'header-menu',
@@ -35,6 +33,6 @@
                     'container_class' => 'site-nav'
                 );
                 wp_nav_menu($args);
-            ?>;
+            ?>
         </div>
     </div>
