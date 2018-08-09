@@ -24,13 +24,13 @@
             </a>
         </div>  <!-- End of the Logo -->
 
-        <<div class="header-information">
-            <<div class="socials">
+        <div class="header-information">
+            <div class="socials">
 
             
             </div>
 
-            <<div class="address">
+            <div class="address">
                 <p>123 Seseme street, Texas 88292</p>
             </div>
             
