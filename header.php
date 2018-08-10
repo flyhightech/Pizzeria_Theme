@@ -32,7 +32,10 @@
                 <?php $args = array(
                         'theme_location'   => 'social-menu',
                         'container'        => 'nav',
-                        'container_class'  => 'socials'
+                        'container_class'  => 'socials',
+                        'container_id'     => 'socials',
+                        'link_before'      => '<span class="sr-text">',
+                        'link_after'       => '</span>',
                         );
                      wp_nav_menu($args);
                 ?>
@@ -41,7 +44,8 @@
             <!--         This is where the social links code ends!           -->
 
             <div class="address">
-                <p>123 Seseme street, Texas 88292</p>
+                <p>123 Seseme street, Chicago Il 60292</p>
+                <p>999-298-2999</p>
             </div>
 
             <!--       Address and the phone number section ends here        -->
