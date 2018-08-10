@@ -38,9 +38,13 @@
                 ?>
             </div>
 
+            <!--         This is where the social links code ends!           -->
+
             <div class="address">
                 <p>123 Seseme street, Texas 88292</p>
             </div>
+
+            <!--       Address and the phone number section ends here        -->
 
         </div>
     </header>
@@ -48,11 +52,20 @@
         <div class="navigation">
             <?php 
                 $args = array(
-                    'theme_location' => 'header-menu',
-                    'container' => 'nav',
+                    'theme_location'  => 'header-menu',
+                    'container'       => 'nav',
                     'container_class' => 'site-nav'
                 );
                 wp_nav_menu($args);
             ?>
+
         </div>
     </div>
+
+
+
+
+
+
+
+    <!-- Reach for the moon, you'll still end up amongst the stars. -->
