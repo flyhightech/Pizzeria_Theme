@@ -20,8 +20,8 @@ add_action('wp_enqueue_scripts', 'lapizzeria_styles');
 
 function lapizzeria_menu() {
     register_nav_menus(array(
-        'header-menu' => _('Header Menu', 'lapizzeria'),
-        'social-menu' => _('Social Menu', 'lapizzeria')
+        'header-menu' => __('Header Menu', 'lapizzeria'),
+        'social-menu' => __('Social Menu', 'lapizzeria')
     ));
 
 }
