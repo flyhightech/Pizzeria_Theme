@@ -115,3 +115,29 @@ div.address p {
     font-size: 14px;
     text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+    div.address p {
+        text-align: right;
+    }
+}
+
+/* Social Menu */
+
+nav.social ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+
+@media only screen and (min-width: 768px) {
+    nav.socials ul {
+        float: right;
+    }
+}
+
+nav.social ul li a:before {
+    font-family: 'FontAwesome';
+
+}
