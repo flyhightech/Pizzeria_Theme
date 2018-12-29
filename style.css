@@ -137,7 +137,19 @@ nav.social ul {
     }
 }
 
+nav.social ul li {
+    position: relative;
+    display: inline-block;
+}
+
 nav.social ul li a:before {
     font-family: 'FontAwesome';
-
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    content: '\f08e';
+    font-size: 30px;
+    color: black;
 }
+
+nav.social li a[href*="facebook.com"]::before {}
