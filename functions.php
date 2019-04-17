@@ -1,6 +1,7 @@
 <?php
 
-function lapizzeria_styles() {
+function lapizzeria_styles()
+{
 
     // Adding stylesheets
 
@@ -13,19 +14,19 @@ function lapizzeria_styles() {
     wp_enqueue_style('normalize');
     wp_enqueue_style('fontawesome');
     wp_enqueue_style('style');
-
+    
 }
 
 add_action('wp_enqueue_scripts', 'lapizzeria_styles');
 
 //Add menu 
 
-function lapizzeria_menu() {
+function lapizzeria_menu()
+{
     register_nav_menus(array(
         'header-menu' => __('Header Menu', 'lapizzeria'),
         'social-menu' => __('Social Menu', 'lapizzeria')
     ));
-
 }
 
 add_action('init', 'lapizzeria_menu');

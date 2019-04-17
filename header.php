@@ -16,7 +16,7 @@
     <header class="site-header">
         <div class="container">
             <div class="logo">
-                <a href="#<?php echo esc_url(home_url('/')); ?>">
+                <a href="<?php echo esc_url(home_url('/') ) ; ?>">
                     <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" class="logoimage">
                 </a>
             </div>
