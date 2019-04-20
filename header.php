@@ -16,7 +16,7 @@
     <header class="site-header">
         <div class="container">
             <div class="logo">
-                <a href="<?php echo esc_url(home_url('/') ) ; ?>">
+                <a href="<?php echo esc_url(home_url('/')); ?>">
                     <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" class="logoimage">
                 </a>
             </div>
@@ -36,12 +36,12 @@
                     wp_nav_menu($args);
                     ?>
                 </div>
-                <!--         This is where the social links code ends!           -->
+<!--         This is where the social links code ends!           -->
                 <div class="address">
                     <p>123 Seseme street, Chicago Il 60292</p>
                     <p>999-298-2999</p>
                 </div>
-                <!--       Address and the phone number section ends here        -->
+<!--       Address and the phone number section ends here        -->
             </div>
         </div>
     </header>
@@ -55,7 +55,6 @@
             );
             wp_nav_menu($args);
             ?>
-
         </div>
     </div>
 

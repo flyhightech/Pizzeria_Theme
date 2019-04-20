@@ -124,7 +124,7 @@ div.address p {
 
 /* Social Menu */
 
-nav.social ul {
+nav.socials ul {
     list-style: none;
     text-align: center;
     padding: 0;
@@ -137,12 +137,12 @@ nav.social ul {
     }
 }
 
-nav.social ul li {
+nav.socials ul li {
     position: relative;
     display: inline-block;
 }
 
-nav.social ul li a:before {
+nav.socials ul li a:before {
     font-family: 'FontAwesome';
     display: inline-block;
     vertical-align: top;
@@ -150,6 +150,29 @@ nav.social ul li a:before {
     content: '\f08e';
     font-size: 30px;
     color: black;
+    -webkit-font-smoothing: antialiazed;
 }
 
-nav.social li a[href*="facebook.com"]::before {}
+nav.socials li a[href*="facebook.com"]::before {
+    content: '\f09a';
+}
+
+nav.socials li a[href*="twitter.com"]::before {
+    content: '\f099';
+}
+
+nav.socials li a[href*="pinterest.com"]::before {
+    content: '\f231';
+}
+
+nav.socials li a[href*="youtube.com"]::before {
+    content: '\f16a';
+}
+
+nav.socials li a[href*="instagram.com"]::before {
+    content: '\f16d';
+}
+
+nav.socials li a[href*="facebook.com"]::before {
+    content: '\f09a';
+}

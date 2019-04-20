@@ -2,7 +2,6 @@
 
 function lapizzeria_styles()
 {
-
     // Adding stylesheets
 
     wp_register_style('normalize', get_template_directory_uri() . 'css/normalize.css', array(), '8.0.0');
@@ -14,7 +13,6 @@ function lapizzeria_styles()
     wp_enqueue_style('normalize');
     wp_enqueue_style('fontawesome');
     wp_enqueue_style('style');
-    
 }
 
 add_action('wp_enqueue_scripts', 'lapizzeria_styles');
