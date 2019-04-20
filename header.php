@@ -7,8 +7,6 @@
     <?php wp_head(); ?>
 </head>
 
-<h1>Welcome to flyhightech</h1>
-
 <body>
 
     <!--    Below is where the image is located.   -->
@@ -46,7 +44,7 @@
         </div>
     </header>
     <div class="main-menu">
-        <div class="navigation">
+        <div class="navigation container">
             <?php
             $args = array(
                 'theme_location'  => 'header-menu',
