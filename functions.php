@@ -14,8 +14,8 @@ function lapizzeria_styles()
     wp_enqueue_style('fontawesome');
     wp_enqueue_style('style');
 
-    wp_register_script('script', get_template_directory_uri(  ), '/js/scripts.js', array('jquery'), '1.0.0', true); 
-    
+    wp_register_script('script', get_template_directory_uri(  ) . '/js/scripts.js', array('jquery'), '1.0.0', true); 
+
     // Add Javascript Files
     wp_enqueue_script('jquery');
     wp_enqueue_script('script');
