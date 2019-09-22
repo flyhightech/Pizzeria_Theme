@@ -1,8 +1,8 @@
 /*
 
-Theme Name: La Pizzeriaa
+Theme Name: Resturant Theme
 Theme URI:
-Author: Flyhightech.LLC
+Author: Bernard Huff
 Author URI: www.flyhightech.net
 Description: Theme for local restaurants
 Version: 1.1
@@ -10,7 +10,7 @@ License:
 License URI:
 
 Tags: restaurant, mobile first, responsive, pizza
-Text Domain: lapizza
+Text Domain: Resturant Theme
 
 */
 
@@ -57,15 +57,12 @@ h4 {
     margin: 0 auto;
 }
 
-/*
-div#content {
-    width: 800px;
-    padding: 40px;
-}
-*/
-
 .sr-text {
     display: none;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Header */
@@ -292,4 +289,20 @@ nav.site-nav ul li.current_page_item a {
     }
 }
 
+.main-content {
+    padding: 60px;
+    background-color: white;
+    position: relative;
+}
+
+@media only screen and (min-width:768px) {
+    .main-content {
+        margin-top: -90px;
+    }
+}
+
+.content-text p {
+    font-size: 18px;
+    line-height: 50px;
+}
 
