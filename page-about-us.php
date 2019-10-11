@@ -18,8 +18,18 @@
 
         <div class="box-information container clear">
             <div class="box">
+                <?php  
+
+                    $id_image = get_field('image01');
+                    $image = wp_get_attachment_image_src($id_image, 'boxes');
+                
+                ;?>
+                <pre>
+                <?php var_dump(); ?>
+                </pre>
+                <img src="<?php  ?>">
                 <div class="content-box">
-                    <?php the_field('image_1'); ?>
+                    <?php the_field('image01'); ?>
                     <?php the_field('description_1'); ?>
                 </div>
             </div>
